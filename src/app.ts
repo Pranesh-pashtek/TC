@@ -21,7 +21,7 @@ const app = express();
 // Express configuration
 app.set("port", PORT);
 app.set("views", path.join(__dirname, "../views"));
-app.set('view engine', 'ejs');
+// app.set('view engine', 'ejs');
 
 // Use helmet. More info: https://expressjs.com/en/advanced/best-practice-security.html
 var helmet = require('helmet')
