@@ -24,7 +24,7 @@ export default class SfmcApiHelper
   private client_secret="";
   // private _accessToken = "";
   private oauthAccessToken=""; 
-  private member_id = "514018007";
+  private member_id = "514005798";
   private soap_instance_url = "https://mcj6cy1x9m-t5h5tz0bfsyqj38ky.soap.marketingcloudapis.com/";
   private _deExternalKey = "DF20Demo";
   private _sfmcDataExtensionApiUrl = "https://mcj6cy1x9m-t5h5tz0bfsyqj38ky.rest.marketingcloudapis.com/hub/v1/dataevents/key:" + this._deExternalKey + "/rowset";
